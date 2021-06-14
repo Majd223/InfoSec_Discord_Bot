@@ -22,7 +22,7 @@ module.exports = {
         let embed = new Discord.MessageEmbed()
             .setColor('#63a263')
             .setTitle('Choose your major')
-            .setDescription('React below with the major that you are in or interests you\n\n'
+            .setDescription('React below with the major that you are in or interest you\n\n'
                 + `${cyberEmoji} for Cybersecurity major\n`
                 + `${appDevEmoji} for Application Development major\n`
                 + `${businessIntEmoji} for Business Intelligence major\n`

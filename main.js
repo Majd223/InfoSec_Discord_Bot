@@ -52,6 +52,7 @@ client.on('message', message => {
         client.commands.get('teams').execute(message, args, Discord, client);
         client.commands.get('disciplines').execute(message, args, Discord, client);
         client.commands.get('years').execute(message, args, Discord, client);
+        client.commands.get('CTF').execute(message, args, Discord, client);
     }
 });
 
